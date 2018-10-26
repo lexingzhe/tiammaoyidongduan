@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,i{
+    font-style: normal;
+    font-weight: normal;
+}
+strong{
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul ,li{
+    list-style: none;
+}
+li{
+    display: block;
+}
+html{
+    font-size: 29.62962962962963px;
+}
+img{
+    vertical-align: middle;
+}
+@media screen and (max-width:1025px){
+    html{
+        font-size: 94.81481481481481px;
+    }
+}
+@media screen and (max-width: 769px) {
+    html{
+        font-size: 71.11px;
+    }
+}
+@media screen and (max-width: 416px){
+    html{
+        font-size: 38.42592592592593px;
+    }
+}
+@media screen and (max-width: 376px){
+    html{
+        font-size: 34.72222222222222px;
+    }
+}
+@media screen and (max-width:361px){
+    html{
+        font-size: 33.33333333333333px;
+    }
+}
+@media screen and (max-width: 321px){
+    html{
+        font-size: 29.62962962962963px;;
+    }
+}

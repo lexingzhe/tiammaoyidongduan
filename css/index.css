@@ -1,0 +1,238 @@
+.header{
+    height: 2.6rem;
+    background-color: #fe0435;
+    position: fixed;
+    top:0;
+    left: 0;
+    margin: 0 auto;
+
+}
+.header .title{
+    width: 10.1rem;
+    height: 1.26rem;
+    line-height: 1.26rem;
+    color: #fefefe;
+    font-size: .4rem;
+    padding: 0 .35rem;
+    background: url("../images/title.jpg") no-repeat center;
+    background-size: 3.44rem;
+
+}
+.header .title .fl{
+    float:left;
+}
+.header .title .fr{
+    float: right;
+}
+.header form{
+    height: 1.34rem;
+    padding: 0 .3rem ;
+}
+.header .search{
+    height: 1.06rem;
+    width: 9.2rem;
+    border: none;
+    border-radius: .1rem;
+    display: block;
+    background: url("../images/search.jpg") no-repeat 0 center white;
+    background-size: .73rem;
+    padding-left: 1rem;
+}
+.main{
+    width: 10.1rem;
+    margin: 0 auto;
+    padding-top: 2.6rem;
+    overflow: hidden;
+}
+.main .list{
+    display: flex;
+}
+.main .list li{
+    text-align: center;
+    font-size: .36rem;
+    flex:1;
+    line-height: 1rem;
+    padding-top: .19rem;
+}
+
+.main .list li img{
+    width: 1.38rem;
+}
+.main .list li span {
+    display: block;
+}
+.main .swi img{
+    width: 10.1rem;
+}
+.main .xinren img{
+    height:5rem;
+}
+.main .xinren{
+    padding: .42rem 0 .38rem;
+}
+.content1 .xianshi{
+    width: 4.97rem;
+    height: 3.7rem;
+    background-color: #f7f7f7;
+    font-size: .36rem;
+    overflow: hidden;
+    position: relative;
+}
+.content1 .xianshi strong{
+    font-size: .44rem;
+    font-weight: 700;
+    display: block;
+    margin: .45rem 0 .22rem .44rem;
+}
+.content1 .xianshi img{
+    width: 2.25rem;
+}
+.content1 .xianshi .haohuo{
+    margin-right: .1rem;
+}
+.content1 .xianshi{
+    float: left;
+}
+.content1 .xianshi1{
+    margin-right: .15rem;
+}
+.content1 .xianshi .daojishi{
+    position: absolute;
+    top:.5rem;
+    right: .39rem;
+    font-size: .28rem;
+}
+.content1 .xianshi .daojishi span{
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    line-height: .57rem;
+}
+.content1{
+    padding-bottom: .18rem;
+    overflow: hidden;
+}
+.main .juhuas{
+    background-color: #f7f7f7;
+    margin-top: .15rem;
+    height: 3.7rem;
+}
+.main .juhuas h3{
+    font-size: .46rem;
+    font-weight: 700;
+    line-height: .9rem;
+    padding-top: .12rem;
+}
+.main .juhuas h3 span{
+    font-size: .36rem;
+    color: #706f6f;
+}
+.main .juhuas img{
+    width: 2.28rem;
+}
+.main .s11{
+    margin-top: .4rem;
+    margin-bottom: .07rem;
+}
+.main .s11 img{
+    width: 10.1rem;
+}
+.main .pinpai h3{
+    font-size: .54rem;
+    line-height: 1.34rem;
+    font-weight: 700;
+}
+.main .pinpai img{
+    width: 10.1rem;
+}
+.wulei{
+    margin-top: .2rem;
+    display: flex;
+}
+.wulei li{
+    flex:1;
+    justify-content:space-between;
+    position: relative;
+}
+.wulei img{
+    width: 3.26rem;
+}
+.wulei li .touming span{
+    display: block;
+    font-size: .36rem;
+    color: white;
+
+}
+.wulei li .touming{
+    background: rgba( 0,0,0,0.3);
+    width: 3.26rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+.main .cai h3{
+    line-height: 1.24rem;
+    font-size: .52rem;
+    font-weight: 700;
+}
+.main .cai ul{
+    display: flex;
+}
+.main .cai ul li{
+    border:.03rem solid #ececec;
+    height: 9.3rem;
+    width: 4.83rem;
+    float: left;
+}
+.main .cai ul .left{
+    margin-right: .27rem;
+}
+.main .cai ul li .content{
+    height: 8.04rem;
+    border-bottom:.03rem solid #ececec ;
+}
+.main .cai ul li .tuijian{
+    font-size: .36rem;
+    text-align: center;
+    line-height: 1.17rem;
+    color: #808080;
+}
+.main .cai ul li .content .nvhai{
+    display: block;
+    width: 4.83rem;
+    height: 4.83rem;
+    background: url("../images/caini.jpg") no-repeat center .4rem #f6f6f6;
+    background-size: 2.87rem;
+}
+.main .cai ul li .content .jx{
+    width: 2.4rem;
+    position: relative;
+    top:-.26rem;
+}
+.main .cai ul li .content .jx img{
+    width: 2.4rem;
+    display: block;
+}
+.main .cai ul li .content a .miaoshu{
+    font-size: .40rem;
+    line-height: .6rem;
+    padding: 0 .55rem 0 .27rem;
+}
+.main .cai ul li .content .price{
+    font-size: .36rem;
+    color: red;
+    font-weight: 700;
+    padding: .6rem .18rem 0 .38rem;
+}
+.main .cai ul li .content .price a{
+    float: right;
+    display: block;
+    width: 1.6rem;
+    height: .65rem;
+    border-radius: .32rem;
+    background-color: #fee5ea;
+    color: red;
+    text-align: center;
+    line-height: .65rem;
+}
