@@ -2,10 +2,10 @@
     height: 2.6rem;
     background-color: #fe0435;
     position: fixed;
-    top:0;
-    left: 0;
-    margin: 0 auto;
-
+    top: 0;
+    left: 50%;
+    margin-left: -5.35rem;
+    z-index: 1;
 }
 .header .title{
     width: 10.1rem;
@@ -38,11 +38,22 @@
     background-size: .73rem;
     padding-left: 1rem;
 }
+/* @media screen and (max-width:1920px){
+    html{
+        font-size: 94.81481481481481px;
+    }
+    .header{
+         width: 314.25px; 
+        margin: 0 auto;
+        position: relative;
+    }
+} */
 .main{
     width: 10.1rem;
     margin: 0 auto;
     padding-top: 2.6rem;
     overflow: hidden;
+    position: relative;
 }
 .main .list{
     display: flex;
@@ -235,4 +246,4 @@
     color: red;
     text-align: center;
     line-height: .65rem;
-}
+

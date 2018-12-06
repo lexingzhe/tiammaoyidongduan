@@ -25,6 +25,7 @@ html{
 img{
     vertical-align: middle;
 }
+
 @media screen and (max-width:1025px){
     html{
         font-size: 94.81481481481481px;
